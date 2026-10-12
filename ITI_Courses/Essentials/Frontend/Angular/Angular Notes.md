@@ -1,7 +1,8 @@
 ---
 notion-id: 21dba0f393fd80628f5ed936f8aeb363
 ---
-[[01_ITI_courses/Essentials/Frontend/Angular/Angular Notes/TypeScript|TypeScript]]
+{% raw %}
+[[ITI_Courses/Essentials/Frontend/Angular/Angular Notes/TypeScript|TypeScript]]
   
 ```tsx
 @Component({
@@ -248,8 +249,8 @@ export class UserComponent {
 - Two-way binding syntax: `[(ngModel)]="propname"`
 	- Cannot be used on properties, not by default.
 	- Should be imported `import {FormsModule} from "@angular/forms";`
-- The `FormsModule` automatically uses <form> as a selector, and takes complete control of the form using an inside form component which executes instead.
-- `<form (ngSubmit)="onSubmitTask()" >` ⇒ Prevent HTML default behavior to call database, and execute an action instead.  
+- The `FormsModule` automatically uses `<form>` as a selector, and takes complete control of the form using an inside form component which executes instead.
+- ```<form (ngSubmit)="onSubmitTask()" >``` ⇒ Prevent HTML default behavior to call database, and execute an action instead.  
     
 ### Two-way binding with signals
 - The correct way to two way bind a signal is the second one, as adding () means to call the read only function for signals.
@@ -286,7 +287,7 @@ export class UserComponent {
 ```
 ### Fall back content
 - On event of failure to load/provide content, angular ha sa new feature to define fall back content.
-- To use it, we use <ng-content> element not as a self closed element
+- To use it, we use `<ng-content>` element not as a self closed element
   
   
 - Pipes, output transformers, things that transform output in templates
@@ -418,3 +419,5 @@ it had the specified selector, even though it doesn't.
 In this case, it allows the second span to be treated as if it had the class "icon",
 which is used in the button component's template to style the icon appropriately.-->
 ```
+
+{% endraw %}
