@@ -32,7 +32,7 @@ notion-id: 21dba0f393fd80628f5ed936f8aeb363
 - String interpolation is often used ONLY between tags
     
 	```html
-	<span> {{ selectedUser.name ]} <span\>
+	<span> {{ selectedUser.name }} <span\>
 	```
     
   
