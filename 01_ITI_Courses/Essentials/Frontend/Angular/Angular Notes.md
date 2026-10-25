@@ -2,7 +2,7 @@
 notion-id: 21dba0f393fd80628f5ed936f8aeb363
 ---
 {% raw %}
-[[ITI_Courses/Essentials/Frontend/Angular/Angular Notes/TypeScript|TypeScript]]
+[[01_ITI_Courses/Essentials/Frontend/Angular/Angular Notes/TypeScript|TypeScript]]
   
 ```tsx
 @Component({
