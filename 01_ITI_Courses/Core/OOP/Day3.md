@@ -227,3 +227,6 @@ void print
 
 
 search how to pass 2d array
+
+https://www.reddit.com/r/explainlikeimfive/comments/1rg4z8p/eli5_what_is_a_buffer_overflow_attack_and_how/
+https://stackoverflow.com/questions/35810783/how-to-access-the-elements-in-a-2d-array-through-a-pointer

@@ -52,7 +52,7 @@ LIFI => ely b3d el wifi => moving data through light
 * Cannot be renamed or deleted
 * Default for any new switch
 * Up by default with no IP address (sees the whole network)
-### Date VLAN
+### Data VLAN
 * For user generated traffic (emails and web traffic)
 * An access port can belong to one data VLAN at a time, but may also have a Voice VLAN.
 ### Native 
