@@ -2,7 +2,7 @@
 
 # Database life cycle
 1. Analysis
-	* Conducted by system analyst
+	* Conducted by ==system analyst==
 	* Have experience in both the business domain and a tech background, so he can act as the middle man between developers and the client
 	* Produces a requirement document which is the scope of what should be done
 2. DB design
@@ -80,7 +80,7 @@
 * Derived attribute
 	Can be calculated from another attribute
 	Age can be derived from birthdate
-	Dashed elipse
+	Dashed ellipse
 * Multivalued
 	Many values for the same object
 	A person can have many phone numbers
